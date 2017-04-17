@@ -1,0 +1,26 @@
+{
+  "name": "Reii-Site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ReiiYuki/Reii-Site.git",
+  "author": "Voraton Lertrattanapaisal <iguru.shou.5410070@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-router": "^4.1.1"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --hot --inline --progress --open",
+    "build": "webpack --progress --colors --optimize-min"
+  }
+}
